@@ -38,4 +38,4 @@ over `orgs/`. Saying otherwise would be the claim this file exists to prevent.
 2. Then a printed listing rather than a count, and content grep on
    `:fs/app-data`.
 3. Register this repository in `manifest/west.yml` — it is currently an orphan,
-   which is why `nbb scripts/repo-search.cljs` could not see it.
+   which is why `kbb --backend sci scripts/repo-search.cljk` could not see it.
